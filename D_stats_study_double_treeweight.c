@@ -11,7 +11,7 @@
 #include <ctype.h>
 #include <time.h>
 #include <string.h>
-#include <malloc/malloc.h> ##Need to modify to include <malloc.h> for Linux
+#include <malloc/malloc.h> //Need to modify to include <malloc.h> for Linux
 #include <unistd.h>
 
 #define MAX(a,b) (a>=b?a:b)
