@@ -269,4 +269,10 @@ The output filename is supplied as the final positional argument, after the comm
 
 ---
 
+## Contact
+
+If you have any questions about the code, the simulations, or need help running the analyses, please feel free to open an [Issue](../../issues) in this repository.
+
+You can also contact me directly through my [GitHub profile](https://github.com/Ekerdoncuff), or by finding my lastest email address on my [personnal page](https://ekerdoncuff.github.io/).
+
 
