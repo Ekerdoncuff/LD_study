@@ -1,8 +1,8 @@
 //
-//  SMC_lib.h
+//  D_etude_lib.h
 //  
 //
-//  Created by elise.kerdoncuff on 15/12/2017.
+//  Created by elise.kerdoncuff on 10/12/2023 (First version).
 //
 
 #ifndef SMC_lib_h
