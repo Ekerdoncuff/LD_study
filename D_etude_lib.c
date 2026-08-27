@@ -2,7 +2,7 @@
 //  D_etude_lib.c
 //  
 //
-//  Created by elise.kerdoncuff on 10/12/2023.
+//  Created by elise.kerdoncuff on 10/12/2023 (First version).
 //
 
 #include <stdio.h>
@@ -11,7 +11,7 @@
 #include <ctype.h>
 #include <time.h>
 #include <string.h>
-#include <malloc/malloc.h>
+#include <malloc/malloc.h> //Need to modify to include <malloc.h> for Linux
 
 #include "D_etude_lib.h"
 
@@ -198,7 +198,7 @@ char * PrintTree(int indiv, struct InfosIndiv InfosIndiv[], int N, char *strtree
                 indiv=i;
         }
     }
-    if (malloc_size(strtree)-(*pos) < 150)
+    if (malloc_size(strtree)-(*pos) < 150) //Need to modify to malloc_usable_size() for Linux
     {
         size_t sizestrtree = strlen(strtree);
         strtree=realloc(strtree, 2*sizestrtree );
